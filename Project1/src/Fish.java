@@ -14,4 +14,11 @@ public class Fish extends Pet {
 				 
 		return currentDepth;
 	}
+	
+	public String say(String phrase)
+	{
+		String temp ="Ты чё не знаешь, что рыбы не разговаривают?"; 
+		return temp;
+		
+	}
 }
